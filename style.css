@@ -78,18 +78,22 @@ p {
 
 .infoBox > p {
   width: 325px;
+  display: inline-block;
 }
 
 .infoBox {
   display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 div:nth-child(4n) {
-  width: fit-content;
+  /* width: fit-content; */
+  width: 600px;
   position: relative;
   margin: 0 auto;
   background-color: black;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
 }
 
 .centeredBox > p:first-of-type {
@@ -98,9 +102,10 @@ div:nth-child(4n) {
 }
 
 .centeredBox > p:nth-of-type(2) {
-  margin-right: 22%;
+  margin-right: 18%;
   background-color: #962727;
   margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 /*to remove gap between sections*/
